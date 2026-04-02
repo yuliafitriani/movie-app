@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="text-neutral-600 text-xs text-left gap-2 flex flex-col lg:flex-row my-4">
         <div>
           <img
-            src="src/assets/images/logo.svg"
+            src="images/logo.svg"
             alt="Movie Logo"
             onClick={() => navigate("/")}
           />

@@ -14,7 +14,7 @@ const Hero = () => {
         "
       >
         <img
-          src="src/assets/images/hero.png"
+          src="images/hero.png"
           className="min-h-98 w-auto object-cover lg:w-full lg:object-center absolute left-0 top-0 -z-1"
           alt="Hero Movie"
         />
@@ -23,7 +23,7 @@ const Hero = () => {
       </div> */}
       <div className="w-full absolute left-0 top-0 -z-1">
         <img
-          src="src/assets/images/hero.png"
+          src="images/hero.png"
           className="h-[345px] lg:h-[810px] lg:max-w-[1536px] w-full object-cover lg:w-full lg:object-cover mx-auto"
           alt="Movie Detail"
         />
