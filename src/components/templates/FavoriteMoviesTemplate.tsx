@@ -58,7 +58,7 @@ export const FavoriteMoviesTemplate = ({
                 "
               >
                 <img
-                  src="./src/assets/images/empty-favorite.svg"
+                  src="images/empty-favorite.svg"
                   alt="Empty Favorite"
                   className="w-full h-full object-contain"
                 />

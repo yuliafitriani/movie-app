@@ -74,7 +74,7 @@ const Header = () => {
           {/* Left */}
           <div className="flex items-center gap-10 text-white">
             <img
-              src="./src/assets/images/logo.svg"
+              src="images/logo.svg"
               alt="Movie Logo"
               className="h-8 cursor-pointer"
               onClick={() => navigate("/")}
@@ -141,11 +141,7 @@ const Header = () => {
       {open && (
         <div className="fixed inset-0 z-50 bg-black text-white">
           <div className="flex items-center justify-between h-16 px-4">
-            <img
-              src="./src/assets/images/logo.svg"
-              alt="Movie Logo"
-              className="h-8"
-            />
+            <img src="images/logo.svg" alt="Movie Logo" className="h-8" />
             <button onClick={() => setOpen(false)}>
               <X className="h-6 w-6" />
             </button>

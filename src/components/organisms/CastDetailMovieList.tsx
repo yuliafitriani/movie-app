@@ -15,7 +15,7 @@ export const CastDetailMovieList = ({ casts }: Props) => {
             profilePath={
               cast.profilePath
                 ? `https://image.tmdb.org/t/p/w185${cast.profilePath}`
-                : "../src/assets/images/placeholder-avatar.png"
+                : ".images/placeholder-avatar.png"
             }
             character={cast.character}
           />
